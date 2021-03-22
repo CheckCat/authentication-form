@@ -1,4 +1,4 @@
-import {Component} from 'react'
+import { Component } from 'react'
 
 export default class Form extends Component {
 
@@ -6,11 +6,7 @@ export default class Form extends Component {
 		super()
 		this.state = {
 			isShowError: false,
-			errorCollection: {
-				'mismatchPassword': 'Passwords don\'t match',
-				'errorRegistry': 'Registration error',
-				'errorAuth': 'Authorization error'
-			},
+
 			/* With the state "currentError", we can control which error will be on
 				the page at the moment*/
 			currentError: ''
@@ -18,7 +14,7 @@ export default class Form extends Component {
 	}
 
 	hideError() {
-		this.setState({isShowError: false})
+		this.setState({ isShowError: false })
 	}
 	/*
 	* Using the "typeError" parameter,
@@ -42,7 +38,7 @@ export default class Form extends Component {
 			})
 			return await response.json()
 		} catch (e) {
-			this.setState({isShowError: true, currentError: typeError})
+			this.setState({ isShowError: true, currentError: typeError })
 		}
 	}
 }
