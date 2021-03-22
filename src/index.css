@@ -1,0 +1,74 @@
+@font-face {
+    src: url("./fonts/Gotham-Medium.ttf");
+    font-family: 'Gotham';
+}
+@font-face {
+    src: url("./fonts/OpenSans-Regular.ttf");
+    font-family: 'Open Sans';
+}
+body {
+    background-color: #54B5E0;
+    font-family: 'Gotham', sans-serif;
+}
+.container {
+    box-sizing: border-box;
+    max-width: 600px;
+    margin: 50px auto 0;
+    padding: 30px 50px 50px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.form__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form__input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: .7rem 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: .9em;
+    font-family: 'Open Sans';
+}
+.form__label {
+    align-self: flex-start;
+}
+.form__submit {
+    box-sizing: border-box;
+    width: 130px;
+    margin-top: 5px;
+    padding: 8px 36px;
+    border: none;
+    border-radius: 5px;
+    background-color: #403e3e;
+    align-self: flex-start;
+    font-size: .9em;
+    font-family: 'Open Sans';
+    color: #fff;
+    cursor: pointer;
+}
+.form__submit:hover {
+    opacity: .8;
+}
+.form__error {
+    padding: 10px 0 15px;
+    color: #d04848;
+}
+
+@media (max-width: 420px) {
+    .container {
+        margin: 25px 10px 0;
+        padding: 30px 25px 50px;
+    }
+    .form__title {
+        margin: .3em 0;
+        font-size: 1.8em;
+    }
+}
