@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/authentication-form/static/css/main.0570187e.chunk.css",
+    "main.js": "/authentication-form/static/js/main.357583b7.chunk.js",
+    "main.js.map": "/authentication-form/static/js/main.357583b7.chunk.js.map",
+    "runtime-main.js": "/authentication-form/static/js/runtime-main.1cc81bc5.js",
+    "runtime-main.js.map": "/authentication-form/static/js/runtime-main.1cc81bc5.js.map",
+    "static/js/2.12063484.chunk.js": "/authentication-form/static/js/2.12063484.chunk.js",
+    "static/js/2.12063484.chunk.js.map": "/authentication-form/static/js/2.12063484.chunk.js.map",
+    "index.html": "/authentication-form/index.html",
+    "static/css/main.0570187e.chunk.css.map": "/authentication-form/static/css/main.0570187e.chunk.css.map",
+    "static/js/2.12063484.chunk.js.LICENSE.txt": "/authentication-form/static/js/2.12063484.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/authentication-form/static/media/OpenSans-Regular.1b0809d5.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1cc81bc5.js",
+    "static/js/2.12063484.chunk.js",
+    "static/css/main.0570187e.chunk.css",
+    "static/js/main.357583b7.chunk.js"
+  ]
+}
